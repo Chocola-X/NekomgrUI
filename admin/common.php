@@ -84,7 +84,7 @@ if (!$user->logged && !Typecho_Cookie::get('__typecho_first_run') && !empty($cur
 				$navatar= '//q1.qlogo.cn/g?b=qq&nk='.$f.'&s=640';
 			}else{
 				$d=md5($smail);
-				$navatar="https://cravatar.cn/avatar/".$d."?s=220&r=G&d=https://my.52txr.cn/ico.png";
+				$navatar="https://cravatar.cn/avatar/".$d."?s=220&r=G&d=https://logo.nekopara.uk/defualt_avatar.jpg";
 			}
 		}else{
 			$navatar= Typecho_Common::gravatarUrl($user->mail, 220, 'X', 'mm', $request->isSecure());

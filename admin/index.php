@@ -17,7 +17,7 @@ $stat = Typecho_Widget::widget('Widget_Stat');
   <div class="col-xl-3 col-md-6">
 	<div class="card bg-gradient-danger card-img-holder text-white">
 	  <div class="card-body">
-		<img src="img/circle.svg" class="card-img-absolute" alt="circle-image">
+		<img src="img/01.png" class="card-img-absolute" alt="circle-image">
 		<h4 class="font-weight-normal mb-3">文章总计<i class="mdi mdi-library-books mdi-24px float-right"></i></h4>
 		<h2 class="mb-5"><a href="<?php $options->adminUrl('manage-posts.php'); ?>"><?php _e('<em>%s</em> 篇文章',$stat->myPublishedPostsNum); ?></a></h2>
 		<a class="mt-3 mb-0 text-sm">
@@ -32,7 +32,7 @@ $stat = Typecho_Widget::widget('Widget_Stat');
   <div class="col-xl-3 col-md-6">
 	<div class="card bg-gradient-info card-img-holder text-white">
 	  <div class="card-body">
-		<img src="img/circle.svg" class="card-img-absolute" alt="circle-image">
+		<img src="img/02.png" class="card-img-absolute" alt="circle-image">
 		<h4 class="font-weight-normal mb-3">评论总计<i class="mdi mdi-comment-processing-outline mdi-24px float-right"></i></h4>
 		<h2 class="mb-5"><a href="<?php $options->adminUrl('manage-comments.php'); ?>"><?php _e('<em>%s</em> 条评论',$stat->myPublishedCommentsNum); ?></a></h2>
 		<h6 class="card-text">
@@ -63,7 +63,7 @@ $stat = Typecho_Widget::widget('Widget_Stat');
   <div class="col-xl-3 col-md-6">
 	<div class="card bg-gradient-success card-img-holder text-white">
 	  <div class="card-body">
-		<img src="img/circle.svg" class="card-img-absolute" alt="circle-image">
+		<img src="img/03.png" class="card-img-absolute" alt="circle-image">
 		<h4 class="font-weight-normal mb-3">分类总计<i class="mdi mdi-buffer mdi-24px float-right"></i></h4>
 		<h2 class="mb-5"><a href="<?php $options->adminUrl('manage-categories.php'); ?>"><?php _e('<em>%s</em> 个分类',$stat->categoriesNum); ?></a></h2>
 	 <a href="<?php $options->adminUrl('themes.php'); ?>" class="text-white"><i class="mdi mdi-palette"></i><?php _e('更换外观'); ?></a>
@@ -74,7 +74,7 @@ $stat = Typecho_Widget::widget('Widget_Stat');
   <div class="col-xl-3 col-md-6">
 	<div class="card bg-gradient-warning card-img-holder text-white">
 	  <div class="card-body">
-		<img src="img/circle.svg" class="card-img-absolute" alt="circle-image">
+		<img src="img/04.png" class="card-img-absolute" alt="circle-image">
 		<h4 class="font-weight-normal mb-3">博客寄语<i class="mdi mdi-buffer mdi-24px float-right"></i></h4>
 		<h2 class="mb-5">久别重逢，记录初心</h3>
 	  </div>
